@@ -1,0 +1,28 @@
+body{
+    /**background-color: firebrick;**/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: logo.png;
+}
+.menu{
+    background-color: mediumturquoise;
+}
+
+.menu li{  
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+a {
+    color: maroon;
+    text-decoration: none;      
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
